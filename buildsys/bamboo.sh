@@ -749,6 +749,7 @@ echo B4      $SST_SUITES_TO_RUN
     fi
 
     ${SST_TEST_SUITES}/testSuite_Ariel.sh
+    ${SST_TEST_SUITES}/testSuite_Opal.sh
     ${SST_TEST_SUITES}/testSuite_juno.sh
     ${SST_TEST_SUITES}/testSuite_Samba.sh
     ${SST_TEST_SUITES}/testSuite_Messier.sh
