@@ -3395,7 +3395,7 @@ else
        else
             # if Intel PIN module is available, load 2.14 version
             #           ModuleEx puts the avail output on Stdout (where it belongs.)
-            ModuleEx avail | egrep -q "pin/pin-2.14-71313"
+            ModuleEx avail | egrep "pin/pin-2.14-71313"
             if [ $? == 0 ]
             then
             # if `pin module is available, use 2.14.
